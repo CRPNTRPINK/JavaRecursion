@@ -43,7 +43,7 @@ public class Recursion {
     //Задание №3
     public float findRoot(float x){
         int math = (int) (Math.cos(Math.toRadians(Math.pow(x, 5))) + Math.pow(x, 4) - 345.3 * x - 23);
-        if (math < 0){
+        if (math == 0){
             return x;
         }
         else if (x > 10){
